@@ -1,0 +1,190 @@
+object Form1: TForm1
+  Left = 428
+  Height = 281
+  Top = 203
+  Width = 448
+  Caption = 'Form1'
+  ClientHeight = 281
+  ClientWidth = 448
+  LCLVersion = '2.0.6.0'
+  object cbStartDay: TComboBox
+    Left = 56
+    Height = 29
+    Top = 56
+    Width = 100
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+      '11'
+      '12'
+      '13'
+      '14'
+      '15'
+      '16'
+      '17'
+      '18'
+      '19'
+      '20'
+      '21'
+      '22'
+      '23'
+      '24'
+      '25'
+      '26'
+      '27'
+      '28'
+      '29'
+      '30'
+      '31'
+    )
+    OnChange = cbStartDayChange
+    TabOrder = 0
+    Text = '1'
+  end
+  object cbStartMonth: TComboBox
+    Left = 176
+    Height = 29
+    Top = 56
+    Width = 100
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      'Январь'
+      'Февраль'
+      'Март'
+      'Апрель'
+      'Май'
+      'Июнь'
+      'Июль'
+      'Август'
+      'Сентябрь'
+      'Октябрь'
+      'Ноябрь'
+      'Декабрь'
+    )
+    OnChange = cbStartMonthChange
+    TabOrder = 1
+    Text = 'Январь'
+  end
+  object cbStartYear: TComboBox
+    Left = 320
+    Height = 29
+    Top = 56
+    Width = 100
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      '2019'
+      '2020'
+      '2021'
+      '2022'
+      '2023'
+      '2024'
+      '2025'
+      '2026'
+    )
+    OnChange = cbStartYearChange
+    TabOrder = 2
+    Text = '2019'
+  end
+  object cbEndDay: TComboBox
+    Left = 56
+    Height = 29
+    Top = 112
+    Width = 100
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+      '11'
+      '12'
+      '13'
+      '14'
+      '15'
+      '16'
+      '17'
+      '18'
+      '19'
+      '20'
+      '21'
+      '22'
+      '23'
+      '24'
+      '25'
+      '26'
+      '27'
+      '28'
+      '29'
+      '30'
+      '31'
+    )
+    OnChange = cbStartDayChange
+    TabOrder = 3
+    Text = '1'
+  end
+  object cbEndMonth: TComboBox
+    Left = 176
+    Height = 29
+    Top = 112
+    Width = 100
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      'Январь'
+      'Февраль'
+      'Март'
+      'Апрель'
+      'Май'
+      'Июнь'
+      'Июль'
+      'Август'
+      'Сентябрь'
+      'Октябрь'
+      'Ноябрь'
+      'Декабрь'
+    )
+    OnChange = cbStartMonthChange
+    TabOrder = 4
+    Text = 'Январь'
+  end
+  object cbEndYear: TComboBox
+    Left = 320
+    Height = 29
+    Top = 112
+    Width = 100
+    ItemHeight = 0
+    ItemIndex = 0
+    Items.Strings = (
+      '2019'
+      '2020'
+      '2021'
+      '2022'
+      '2023'
+      '2024'
+      '2025'
+      '2026'
+    )
+    OnChange = cbStartYearChange
+    TabOrder = 5
+    Text = '2019'
+  end
+end
